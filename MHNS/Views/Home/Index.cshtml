@@ -1,0 +1,43 @@
+﻿@model MHNS.Models.Login
+
+@{
+    ViewData["Title"] = "Login";
+}
+<style>
+    .center-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+    }
+    .form-container {
+        width: 300px;
+        text-align: center;
+    }
+    .form-container div {
+        margin-bottom: 15px;
+    }
+</style>
+<div class="center-container">
+    <div class="form-container">
+        <h1>Login</h1>
+        <form asp-action="Login" method="post">
+            <div>
+                <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="Password"></label>
+                <input asp-for="Password" type="password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div>
+                <a asp-action="sign_up">Sign Up</a>
+            </div>
+            <div></div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+    </div>
+</div>
