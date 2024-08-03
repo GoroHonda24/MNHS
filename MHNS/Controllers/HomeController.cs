@@ -18,7 +18,7 @@ namespace MHNS.Controllers
             return View();
         }
         [HttpGet]
-        public IActionResult sign_up()
+        public IActionResult Sign_Up()
         {
             return View();
         }

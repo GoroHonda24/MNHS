@@ -25,7 +25,7 @@
 <div class="center-container">
     <div class="form-container">
         <h1>Sign Up</h1>
-        <form asp-action="SignUp" method="post">
+        <form id="signUpForm" asp-action="Create" asp-controller="SignUp" method="post">
             <div>
                 <label asp-for="StudentIdNumber"></label>
                 <input asp-for="StudentIdNumber" class="form-control" />
@@ -62,14 +62,55 @@
                 <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Sign_up" class="btn btn-primary" />
+                <button type="submit" class="btn btn-primary">Sign Up</button>
             </div>
         </form>
     </div>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Registration Successful</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                You have successfully registered. You will be redirected to the login page shortly.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(document).ready(function () {
+            $('#signUpForm').submit(function (event) {
+                event.preventDefault(); // Prevent the default form submission
+
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("Create", "SignUp")',
+                    data: $(this).serialize(),
+                    success: function (response) {
+                        if (response.success) {
+                            $('#successModal').modal('show');
+                            setTimeout(function () {
+                                window.location.href = '@Url.Action("Index", "Home")';
+                            }, 3000); // Redirect to login page after 3 seconds
+                        } else {
+                            alert('Registration failed: ' + response.errors.join(', '));
+                        }
+                    }
+                });
+            });
+        });
+    </script>
 }

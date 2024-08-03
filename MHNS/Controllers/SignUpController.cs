@@ -4,26 +4,19 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MHNS.Controllers
 {
-    public class SignUp : Controller
+    public class SignUpController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public SignUp(ApplicationDbContext context)
+        public SignUpController(ApplicationDbContext context)
         {
             _context = context;
         }
 
         [HttpGet]
-        public IActionResult Index()
-        {
-            var students = _context.Students.ToList();
-            return View(students);
-        }
-
-        [HttpGet]
         public IActionResult Create()
         {
-            return View();
+            return View(); // This should load Views/SignUp/Create.cshtml
         }
 
         [HttpPost]
@@ -33,10 +26,9 @@ namespace MHNS.Controllers
             {
                 _context.Students.Add(student);
                 _context.SaveChanges();
-                return RedirectToAction("Index");
+                return Json(new { success = true });
             }
-            return View(student);
+            return Json(new { success = false, errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage) });
         }
     }
 }
-
