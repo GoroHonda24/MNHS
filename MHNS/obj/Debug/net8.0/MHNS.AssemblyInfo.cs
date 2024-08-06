@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MHNS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55f81a0d5e44743d581f800f17d5ed31e139ac72")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bc6e4cdbd565aba9bf6107707af66d8f44fac8f")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("MHNS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MHNS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
