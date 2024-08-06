@@ -144,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Models\\Student.cs",
               "RelativeDocumentMoniker": "MHNS\\Models\\Student.cs",
