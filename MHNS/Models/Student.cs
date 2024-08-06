@@ -22,13 +22,15 @@ namespace MHNS.Models
         [Display(Name = "Last Name")]
         public string LastName { get; set; }
 
+        [DataType(DataType.Password)]
         [Required(ErrorMessage = "Password is required")]
         public string Password { get; set; }
 
+        [DataType(DataType.Password)]
         [Required(ErrorMessage = "Confirm Password is required")]
         [Display(Name = "Confirm Password")]
         [Compare("Password", ErrorMessage = "Password and Confirm Password do not match")]
-        public string ConfirmPassword { get; set; }
+        public string? ConfirmPassword { get; set; }
 
         public string MiddleName { get; set; }
     }
