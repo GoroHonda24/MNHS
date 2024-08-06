@@ -100,13 +100,18 @@
                     url: '@Url.Action("Create", "SignUp")',
                     data: $(this).serialize(),
                     success: function (response) {
+                        console.log(response); // Log response for debugging
                         if (response.success) {
                             $('#successModal').modal('show');
                             setTimeout(function () {
                                 window.location.href = '@Url.Action("Index", "Home")';
                             }, 3000); // Redirect to login page after 3 seconds
                         } else {
-                            alert('Registration failed: ' + response.errors.join(', '));
+                            if (response.errors) {
+                                alert('Registration failed: ' + response.errors.join(', '));
+                            } else {
+                                alert('Registration failed: An unknown error occurred.');
+                            }
                         }
                     }
                 });

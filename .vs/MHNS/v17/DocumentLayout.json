@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\HSI\\Desktop\\MHNS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\views\\signup\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\views\\signup\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\views\\dashboard\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -88,7 +88,8 @@
               "RelativeToolTip": "MHNS\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T10:34:02.005Z"
+              "WhenOpened": "2024-08-03T10:34:02.005Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
