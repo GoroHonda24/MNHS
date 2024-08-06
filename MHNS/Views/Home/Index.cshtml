@@ -37,7 +37,7 @@
             </div>
             <div>
                 <label for="hasAccount">Don't have an account?</label>
-                <a asp-action="SignUp" asp-controller="SignUp">Create Account</a>
+                <a asp-action="Create" asp-controller="SignUp">Create Account</a>
             </div>
             <button type="submit" class="btn btn-primary">Login</button>
         </form>
@@ -77,7 +77,7 @@
                     data: $(this).serialize(),
                     success: function (response) {
                         if (response.success) {
-                            window.location.href = '@Url.Action("Index", "Dashboard")';
+                            window.location.href = response.redirectUrl;
                         } else {
                             $('#loginModal').modal('show');
                         }

@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\HSI\\Desktop\\MHNS\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\models\\enrolmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\models\\enrolmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,22 +18,47 @@
     {
       "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\controllers\\enrolmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\controllers\\enrolmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\views\\enrolment\\enrolmentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\views\\enrolment\\enrolmentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\models\\enrolmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\models\\enrolmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -42,6 +68,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 3,
           "Children": [
             {
@@ -63,49 +90,107 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T04:01:23.054Z",
+=======
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnrolmentForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Views\\Enrolment\\EnrolmentForm.cshtml",
+              "RelativeDocumentMoniker": "MHNS\\Views\\Enrolment\\EnrolmentForm.cshtml",
+              "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Views\\Enrolment\\EnrolmentForm.cshtml",
+              "RelativeToolTip": "MHNS\\Views\\Enrolment\\EnrolmentForm.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAABgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T13:43:11.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnrolmentController.cs",
+              "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Controllers\\EnrolmentController.cs",
+              "RelativeDocumentMoniker": "MHNS\\Controllers\\EnrolmentController.cs",
+              "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Controllers\\EnrolmentController.cs",
+              "RelativeToolTip": "MHNS\\Controllers\\EnrolmentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T13:37:56.162Z",
+>>>>>>> Stashed changes
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< Updated upstream
+              "DocumentIndex": 0,
+=======
+              "DocumentIndex": 3,
+>>>>>>> Stashed changes
               "Title": "EnrolmentForm.cs",
               "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Models\\EnrolmentForm.cs",
               "RelativeDocumentMoniker": "MHNS\\Models\\EnrolmentForm.cs",
               "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Models\\EnrolmentForm.cs",
               "RelativeToolTip": "MHNS\\Models\\EnrolmentForm.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAAAcAAAAAAAAAAAAuwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T04:00:23.208Z",
+=======
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T13:37:06.874Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 5,
+>>>>>>> Stashed changes
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Program.cs",
               "RelativeDocumentMoniker": "MHNS\\Program.cs",
               "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Program.cs",
               "RelativeToolTip": "MHNS\\Program.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA0AAAA",
+=======
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAAVAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T10:34:02.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 2,
+>>>>>>> Stashed changes
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MHNS\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Controllers\\HomeController.cs",
               "RelativeToolTip": "MHNS\\Controllers\\HomeController.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAABYAAAAAAAAAAAAmwCMAAAAFAAAA",
+=======
+              "ViewState": "AQIAADYAAAAAAAAAAAAmwEMAAAA6AAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T06:24:45.574Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
+=======
+              "DocumentIndex": 8,
+>>>>>>> Stashed changes
               "Title": "SignUpController.cs",
               "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Controllers\\SignUpController.cs",
               "RelativeDocumentMoniker": "MHNS\\Controllers\\SignUpController.cs",
@@ -123,25 +208,45 @@
               "RelativeDocumentMoniker": "MHNS\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "MHNS\\Views\\Home\\Index.cshtml",
+<<<<<<< Updated upstream
               "ViewState": "AQIAACQAAAAAAAAAAAAAACsAAAAAAAAA",
+=======
+              "ViewState": "AQIAADQAAAAAAAAAAADwv08AAABbAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-03T06:02:18.43Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 7,
+=======
+<<<<<<< Updated upstream
+              "DocumentIndex": 3,
+=======
+              "DocumentIndex": 4,
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Models\\Student.cs",
               "RelativeDocumentMoniker": "MHNS\\Models\\Student.cs",
               "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Models\\Student.cs",
               "RelativeToolTip": "MHNS\\Models\\Student.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
+=======
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T06:01:11.258Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 7,
+>>>>>>> Stashed changes
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Models\\Login.cs",
               "RelativeDocumentMoniker": "MHNS\\Models\\Login.cs",
@@ -149,8 +254,7 @@
               "RelativeToolTip": "MHNS\\Models\\Login.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T07:50:09.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-04T07:50:09.356Z"
             }
           ]
         }
