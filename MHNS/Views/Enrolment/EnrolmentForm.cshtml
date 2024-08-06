@@ -1,0 +1,223 @@
+﻿@model MHNS.Models.EnrolmentForm
+@{
+    ViewData["Title"] = "Enrolment Form";
+}
+
+<style>
+    .center-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .form-container {
+        width: 100%;
+        max-width: 800px;
+        text-align: left;
+    }
+
+        .form-container div {
+            margin-bottom: 15px;
+        }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+</style>
+
+<div class="center-container">
+    <div class="form-container">
+        <h2>@ViewData["Title"]</h2>
+        <form id="enrolmentForm" asp-action="EnrolmentForm" method="post">
+            <div class="form-group">
+                <label asp-for="BirthCertificateNo"></label>
+                <input asp-for="BirthCertificateNo" class="form-control" />
+                <span asp-validation-for="BirthCertificateNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LearnerReferenceNo"></label>
+                <input asp-for="LearnerReferenceNo" class="form-control" />
+                <span asp-validation-for="LearnerReferenceNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstName"></label>
+                <input asp-for="FirstName" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label asp-for="MiddleName"></label>
+                <input asp-for="MiddleName" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName"></label>
+                <input asp-for="LastName" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label asp-for="ExtensionName"></label>
+                <input asp-for="ExtensionName" class="form-control" />
+                <span asp-validation-for="ExtensionName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Birthdate"></label>
+                <input asp-for="Birthdate" class="form-control" type="date" />
+                <span asp-validation-for="Birthdate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HasDisability"></label>
+                <input asp-for="HasDisability" class="form-check-input" type="checkbox" />
+                <span asp-validation-for="HasDisability" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DisabilityType"></label>
+                <input asp-for="DisabilityType" class="form-control" />
+                <span asp-validation-for="DisabilityType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PermanentAddress"></label>
+                <input asp-for="PermanentAddress" class="form-control" />
+                <span asp-validation-for="PermanentAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CurrentAddress"></label>
+                <input asp-for="CurrentAddress" class="form-control" />
+                <span asp-validation-for="CurrentAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FatherName"></label>
+                <input asp-for="FatherName" class="form-control" />
+                <span asp-validation-for="FatherName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MotherMaidenName"></label>
+                <input asp-for="MotherMaidenName" class="form-control" />
+                <span asp-validation-for="MotherMaidenName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LegalGuardianName"></label>
+                <input asp-for="LegalGuardianName" class="form-control" />
+                <span asp-validation-for="LegalGuardianName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MotherTongue"></label>
+                <input asp-for="MotherTongue" class="form-control" />
+                <span asp-validation-for="MotherTongue" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Age"></label>
+                <input asp-for="Age" class="form-control" />
+                <span asp-validation-for="Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sex"></label>
+                <select asp-for="Sex" class="form-control">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <span asp-validation-for="Sex" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsIndigenous"></label>
+                <input asp-for="IsIndigenous" class="form-check-input" type="checkbox" />
+                <span asp-validation-for="IsIndigenous" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IndigenousCommunity"></label>
+                <input asp-for="IndigenousCommunity" class="form-control" />
+                <span asp-validation-for="IndigenousCommunity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Is4PsBeneficiary"></label>
+                <input asp-for="Is4PsBeneficiary" class="form-check-input" type="checkbox" />
+                <span asp-validation-for="Is4PsBeneficiary" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FourPsHouseholdId"></label>
+                <input asp-for="FourPsHouseholdId" class="form-control" />
+                <span asp-validation-for="FourPsHouseholdId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastGradeLevelCompleted"></label>
+                <input asp-for="LastGradeLevelCompleted" class="form-control" />
+                <span asp-validation-for="LastGradeLevelCompleted" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastSchoolYearCompleted"></label>
+                <input asp-for="LastSchoolYearCompleted" class="form-control" />
+                <span asp-validation-for="LastSchoolYearCompleted" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastSchoolAttended"></label>
+                <input asp-for="LastSchoolAttended" class="form-control" />
+                <span asp-validation-for="LastSchoolAttended" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastSchoolID"></label>
+                <input asp-for="LastSchoolID" class="form-control" />
+                <span asp-validation-for="LastSchoolID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Semester</label>
+                <div>
+                    <input asp-for="SemesterFirst" class="form-check-input" type="checkbox" />
+                    <label asp-for="SemesterFirst">1st</label>
+                </div>
+                <div>
+                    <input asp-for="SemesterSecond" class="form-check-input" type="checkbox" />
+                    <label asp-for="SemesterSecond">2nd</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Track"></label>
+                <input asp-for="Track" class="form-control" />
+                <span asp-validation-for="Track" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Strand"></label>
+                <input asp-for="Strand" class="form-control" />
+                <span asp-validation-for="Strand" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Preferred Distance Learning Modality</label>
+                <div>
+                    <input asp-for="ModularPrint" class="form-check-input" type="checkbox" />
+                    <label asp-for="ModularPrint">Modular (Print)</label>
+                </div>
+                <div>
+                    <input asp-for="Online" class="form-check-input" type="checkbox" />
+                    <label asp-for="Online">Online</label>
+                </div>
+                <div>
+                    <input asp-for="RadioBasedInstruction" class="form-check-input" type="checkbox" />
+                    <label asp-for="RadioBasedInstruction">Radio-Based Instruction</label>
+                </div>
+                <div>
+                    <input asp-for="Blended" class="form-check-input" type="checkbox" />
+                    <label asp-for="Blended">Blended</label>
+                </div>
+                <div>
+                    <input asp-for="ModularDigital" class="form-check-input" type="checkbox" />
+                    <label asp-for="ModularDigital">Modular (Digital)</label>
+                </div>
+                <div>
+                    <input asp-for="EducationalTelevision" class="form-check-input" type="checkbox" />
+                    <label asp-for="EducationalTelevision">Educational Television</label>
+                </div>
+                <div>
+                    <input asp-for="Homeschooling" class="form-check-input" type="checkbox" />
+                    <label asp-for="Homeschooling">Homeschooling</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
