@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\HSI\\Desktop\\MHNS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\models\\enrolmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\models\\enrolmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\views\\dashboard\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\views\\dashboard\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\utilities\\daterangeuntiltodayattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\utilities\\daterangeuntiltodayattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +19,20 @@
       "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\controllers\\signupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\mhns.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\mhns.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|c:\\users\\hsi\\desktop\\mhns\\mhns\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0672BBAB-A4D8-45C3-A493-58114F4AD625}|MHNS\\MHNS.csproj|solutionrelative:mhns\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,124 +42,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DateRangeUntilTodayAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Utilities\\DateRangeUntilTodayAttribute.cs",
+              "RelativeDocumentMoniker": "MHNS\\Utilities\\DateRangeUntilTodayAttribute.cs",
+              "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Utilities\\DateRangeUntilTodayAttribute.cs",
+              "RelativeToolTip": "MHNS\\Utilities\\DateRangeUntilTodayAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T04:01:23.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnrolmentForm.cs",
+              "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Models\\EnrolmentForm.cs",
+              "RelativeDocumentMoniker": "MHNS\\Models\\EnrolmentForm.cs",
+              "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Models\\EnrolmentForm.cs",
+              "RelativeToolTip": "MHNS\\Models\\EnrolmentForm.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T04:00:23.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Views\\Dashboard\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "MHNS\\Views\\Dashboard\\Dashboard.cshtml",
-              "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Views\\Dashboard\\Dashboard.cshtml",
-              "RelativeToolTip": "MHNS\\Views\\Dashboard\\Dashboard.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T08:16:18.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MHNS\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MHNS\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-03T15:57:25.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Program.cs",
               "RelativeDocumentMoniker": "MHNS\\Program.cs",
               "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Program.cs",
               "RelativeToolTip": "MHNS\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T10:34:02.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MHNS.csproj",
-              "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\MHNS.csproj",
-              "RelativeDocumentMoniker": "MHNS\\MHNS.csproj",
-              "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\MHNS.csproj",
-              "RelativeToolTip": "MHNS\\MHNS.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-03T10:29:27.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MHNS\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Controllers\\HomeController.cs",
               "RelativeToolTip": "MHNS\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAIwEwAAAAAAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAmwCMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T06:24:45.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T06:24:45.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "SignUpController.cs",
               "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Controllers\\SignUpController.cs",
               "RelativeDocumentMoniker": "MHNS\\Controllers\\SignUpController.cs",
               "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Controllers\\SignUpController.cs",
               "RelativeToolTip": "MHNS\\Controllers\\SignUpController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAqwBgAAAAaAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwBIAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T07:20:21.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T07:20:21.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "MHNS\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "MHNS\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAC4AAAAAAAAAAADwv1kAAAAAAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-03T06:02:18.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T06:02:18.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Models\\Student.cs",
               "RelativeDocumentMoniker": "MHNS\\Models\\Student.cs",
               "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Models\\Student.cs",
               "RelativeToolTip": "MHNS\\Models\\Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T06:01:11.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T06:01:11.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Models\\Login.cs",
               "RelativeDocumentMoniker": "MHNS\\Models\\Login.cs",
               "ToolTip": "C:\\Users\\HSI\\Desktop\\MHNS\\MHNS\\Models\\Login.cs",
               "RelativeToolTip": "MHNS\\Models\\Login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T07:50:09.356Z",
               "EditorCaption": ""
